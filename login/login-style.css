@@ -1,0 +1,120 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+body {
+	background-color: #faeded;
+}
+.frame {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+
+.wrapper {
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	transform: translate(-50%, -40%);
+}
+
+.wrapper .image-and-title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	margin-bottom: 16px;
+}
+
+.image-and-title img {
+	width: 128px;
+	height: 40px;
+}
+
+.image-and-title h1 {
+	font-family: 'PT Sans';
+	font-weight: 700;
+	font-size: 32px;
+	text-align: center;
+	color: #393a4a;
+}
+
+.wrapper .content {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.content .login-title h2 {
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 14px;
+	color: #393a4a;
+}
+
+.content .placeholder {
+	font-family: 'PT Sans';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 150%;
+	color: #6b778c;
+}
+
+.content .hidden-image {
+	margin-left: -10%;
+}
+
+.content .box {
+	border: 2px solid #e7e7ed;
+	border-radius: 3px;
+	width: 344px;
+	height: 52px;
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: #393a4a;
+}
+
+.content .login-button {
+	padding: 16px;
+	width: 344px;
+	background: #e91c22;
+	border-radius: 8px;
+	margin-top: 32px;
+	color: white;
+	border: none;
+	font-family: 'Outfit';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 150%;
+}
+
+.content .terms-and-condition-wrapper {
+	font-family: 'Outfit';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 150%;
+	color: #393a4a;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 0px;
+	margin-top: 16px;
+	margin-left: 10%;
+}
+
+.content h4 {
+	margin: 0px;
+	padding-left: 4px;
+}
+
+.content h4 span {
+	color: red;
+}
